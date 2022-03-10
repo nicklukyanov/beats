@@ -1,0 +1,13 @@
+.features {
+  display: flex;
+}
+
+.features__item {
+  margin-right: 35px;
+  
+
+  &:last-child{
+    margin-right: 0;
+  }
+}
+
