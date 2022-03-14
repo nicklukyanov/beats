@@ -1,0 +1,62 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: rem(23px) 0;
+  background: #FFFFFF;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include phones {
+    flex-direction: column;
+  }
+}
+
+.social {
+  display: inline-flex;
+}
+
+.social_item--icon--vk .social__link {
+  text-align: center;
+  width: rem(30px);
+  height: rem(30px);
+  margin-right: rem(14px);
+  float: left;
+  background: url("../img/vk.svg") center center / cover no-repeat;
+  border-radius: 24px;
+}
+
+.social_item--icon--fb .social__link {
+  text-align: center;
+  width: rem(30px);
+  height: rem(30px);
+  margin-right: rem(14px);
+  float: left;
+  background: url("../img/fb.svg") center center / cover no-repeat;
+  border-radius: 24px;
+}
+
+.social_item--icon--inst .social__link {
+  text-align: center;
+  width: rem(30px);
+  height: rem(30px);
+  margin-right: rem(14px);
+  float: left;
+  background: url("../img/inst.svg") center center / cover no-repeat;
+  border-radius: rem(24px);
+}
+
+.social_item--icon--tg .social__link {
+  text-align: center;
+  width: rem(30px);
+  height: rem(30px);
+  margin-right: rem(14px);
+  float: left;
+  background: url("../img/tg.svg") center center / cover no-repeat;
+  border-radius: 24px;
+}
