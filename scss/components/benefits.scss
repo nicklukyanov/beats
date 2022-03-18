@@ -18,7 +18,7 @@
   }
 
   &::before {
-    content: url('../img/decor1.svg');
+    content: url('./img/decor1.svg');
     position: absolute;
     top: rem(57px);
     right: 0;
