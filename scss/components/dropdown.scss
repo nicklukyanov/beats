@@ -1,0 +1,32 @@
+.product__specifications-menu {
+  position: relative;
+
+  @include tablets {
+    display: none;
+  }
+}
+
+.products__dropdown {
+  position: absolute;
+  top: 0;
+  right: 86px;
+  width: rem(293px);
+  height: rem(294px);
+  background: rgb(214, 213, 213);
+  backdrop-filter: blur(40px);
+  border-radius: 2%;
+  opacity: 0;
+  right: -999px;
+}
+
+.products__dropdown-items {
+  margin: 23px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product__specifications:hover .products__dropdown {
+  opacity: 1;
+  right: 86px;
+}

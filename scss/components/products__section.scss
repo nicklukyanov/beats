@@ -1,0 +1,153 @@
+.products__section {
+  background: #F8FAF9;
+}
+
+.product__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include tablets {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.products-slider__arrows {
+  position: relative;
+}
+
+.product-slider__arrow--direction--prev {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+
+  @include tablets {
+    
+  }
+}
+
+.product-slider__arrow--direction--next {
+  position: absolute;
+  top: 200px;
+  right: 0;
+}
+
+.product__col {
+  width: 50%;
+  height: 100%;
+  margin-right: rem(59px);
+
+  @include tablets {
+    margin-right: 0;
+  }
+}
+
+.product__col-desc {
+  @include tablets {
+    width: 90%;
+  }
+}
+
+.product__text {
+  font-family: 'play';
+  font-size: rem(16px);
+  color: #666666;
+  margin-bottom: rem(27px);
+  width: 84%;
+
+  @include tablets {
+    width: 100%;
+  }
+}
+
+.product__title {
+  font-family: 'play';
+  font-size: rem(36px);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: rem(24px);
+  padding: 0;
+
+  @include tablets {
+    font-size: rem(28px);
+  }
+
+  @include phones {
+    margin-bottom: rem(15px);
+    text-align: center;
+    
+  }
+}
+
+.product__specifications {
+  margin-bottom: rem(25px);
+}
+
+.product__pic {
+  border-radius: 50%;
+  
+  @include tablets {
+    padding: 0% 5%;
+  }
+
+  @include tablets {
+    padding: 0;
+  }
+}
+
+.product__values {
+  display: flex;
+  margin-bottom: rem(24px);
+
+  @include tablets {
+    justify-content: center;
+  }
+
+  @include phones {
+    margin-left: 50px;
+  }
+}
+
+.product__value {
+  margin-right: rem(86px);
+}
+
+.product__value-item {
+  font-family: 'play';
+  font-size: rem(16px);
+  color: #666666;
+}
+
+.product__value-desc {
+  font-family: 'play';
+  font-size: rem(18px);
+  font-weight: bold;
+
+  @include phones {
+    
+  }
+}
+
+.product__prices {
+  display: flex;
+  align-items: center;
+
+  @include tablets {
+    justify-content: center;
+  }
+}
+
+.product__price {
+  font-family: 'play';
+  font-size: rem(36px);
+  margin-right: rem(22px);
+
+  @include tablets {
+    font-size: rem(40px);
+  }
+
+  @include phones {
+    font-size: rem(32px);
+  }
+}
