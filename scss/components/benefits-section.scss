@@ -1,0 +1,8 @@
+.benefits-section {
+  &::before {
+    position: absolute;
+    content: url(../img/decor2.svg);
+    margin-top: 935px;
+  }
+}
+
